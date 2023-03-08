@@ -1,7 +1,7 @@
 {
-  "name": "bot_ai",
+  "name": "bot_arenna",
   "version": "1.0.0",
-  "description": "whatsapp bot chatgpt Open AI",
+  "description": "whatsapp bot Open AI Arenna",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,11 +10,15 @@
   "keywords": [
     "whastapp"
   ],
-  "author": "brekertabumi@gmail.com",
+  "author": "must.ahmad86@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "^5.0.0",
+    "@adiwajshing/baileys": "4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "eslint": "^8.14.0",
     "express": "^4.18.1",
     "express-fileupload": "^1.4.0",
@@ -23,10 +27,10 @@
     "jimp": "^0.16.1",
     "link-preview-js": "^2.1.13",
     "nodemon": "^2.0.16",
+    "pino": "^8.11.0",
     "qrcode": "^1.5.1",
     "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2",
-    "sharp": "^0.29.3",
     "socket.io": "^4.5.0"
   }
 }

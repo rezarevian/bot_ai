@@ -50,7 +50,7 @@ app.get("/", (req, res) => {
 
 const server = require("http").createServer(app);
 const io = require("socket.io")(server);
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 const qrcode = require("qrcode");
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 let sock;
@@ -58,7 +58,7 @@ let qr;
 let soket;
 
 const axios = require('axios');
-const { API_KEY_OPEN_AI } = { API_KEY_OPEN_AI: "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"};
+const { API_KEY_OPEN_AI } = { API_KEY_OPEN_AI: "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"};
 
 const getResponseAI = async (pesanMasuk) => {
 	const response = await ChatRequest(pesanMasuk);
